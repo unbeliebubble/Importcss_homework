@@ -11,3 +11,256 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  margin: 0 auto;
+}
+
+html{
+  background-color: #edf2c5;
+  width: 1260px; 
+  height: 920px; 
+}
+
+.container{
+  position: absolute;
+  max-width: 1260px;
+  max-height: 880px;
+  background-color: #edf2c5;
+}
+
+.header{
+  position: absolute;
+  font-family: Arial Black;
+  width: 271px;
+  height: 62px;
+  font-size: 44px;
+  color: #778a50;
+  margin: 36px 829px 782px 160px;
+
+}
+
+.facebook {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+  margin: 60px 175px 795px 900px;
+}
+.instagram {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+  margin: 60px 140px 795px 935px;
+}
+
+.line_login {
+  position: absolute;
+  width: 1px;
+  height: 25px;
+  background-color: #778a50;
+  margin: 60px 289px 795px 970px;
+}
+.Box{
+  border-radius : 3px;
+  color : #778A50;
+}
+.box_login {
+  position: absolute;
+  width: 60px;
+  height: 25px;
+  border: solid 1px #778a50;
+  margin: 60px 59px 795px 981px;
+}
+.login {
+  position: absolute;
+  width: 46px;
+  height: 15px;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  color: #778a50;
+  margin: 5px 7px;
+}
+.box_join {
+  position: absolute;
+  width: 49px;
+  height: 25px;
+  border: solid 1px #778a50;
+  margin: 60px 160px 795px 1051px;
+}
+.join {
+  position: absolute;
+  width: 35px;
+  height: 15px;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  color: #778a50;
+  margin: 5px 7px;
+}
+
+.nav{
+  position: absolute;
+  width: 940px;
+  height: 44px;
+  border-radius: 3px;
+  background-color: #778a50;
+  margin: 103px 0 733px 160px;
+}
+
+.nav_list{
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.button{
+  position: absolute;
+  list-style: none;
+  font-family: Arial Black;
+  font-size: 16px;
+  color: #edf2c5;
+  margin: 10px 0 11px 0;
+}
+.H{
+  margin-left: 30px;
+}
+.AU{
+  margin-left: 150px;
+}
+.V{
+  margin-left: 290px;
+}
+.O{
+  margin-left: 448px;
+}
+.C{
+  margin-left: 564px;
+}
+
+.main_pic {
+  position: absolute;
+  width: 940px;
+  height: 448px;
+  object-fit: contain;
+  margin: 167px 0 325px 160px;
+}
+
+.box1{
+  position: absolute;
+  width: 444px;
+  height: 45px;
+  border-radius: 3px;
+  background-color: #778a50;
+  margin: 645px 656px 190px 160px;
+}
+.box1_title{
+  position: absolute;
+  font-family: Arial Black;
+  font-size: 16px;
+  color: #edf2c5;
+  margin: 10px 316px 12px 30px;
+}
+
+.box2{
+  position: absolute;
+  width: 444px;
+  height: 45px;
+  border-radius: 3px;
+  background-color: #778a50;
+  margin: 645px 160px 190px 656px;
+}
+
+.box2_title{
+  position: absolute;
+  font-family: Arial Black;
+  font-size: 16px;
+  color: #edf2c5;
+  margin: 10px 345px 12px 30px;
+}
+
+.box1_pic{
+  position: absolute;
+  display: flex;
+}
+
+.pepper {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+  margin: 705px 0 0 160px;
+}
+
+.carrot {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+  margin: 705px 0 0 312px;
+}
+
+.corn {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+  margin: 705px 0 0 464px;
+}
+
+.box2_content{
+  position: absolute;
+  width: 444px;
+  height: 140px;
+  background-color: #f7fbda;
+  margin: 705px 0 0 656px;
+}
+
+.box2_info1{
+  position: absolute;
+  width: 414px;
+  height: 44px;
+  font-family: Arial;
+  font-size: 12px;
+  line-height: 1.33;
+  color: #7d7d7d;
+  margin: 15px 15px 81px 15px;
+}
+
+.box2_line{
+  position: absolute;
+  width: 414px;
+  height: 1px;
+  background-color: #7d7d7d;
+  margin: 74px 15px 65px 15px;
+}
+
+.box2_info2{
+  position: absolute;
+  width: 197px;
+  height: 35px;
+  font-family: Arial;
+  font-size: 12px;
+  line-height: 1.83;
+  color: #7d7d7d;
+  margin: 90px 232px 15px 15px;
+}
+
+.box_footer {
+  position: absolute;
+  width: 1260px;
+  height: 60px;
+  background-color: #778a50;
+  margin-top: 880px;
+}
+.footer_p{
+  position: absolute;
+  width: 301px;
+  height: 14px;
+  font-family: ArialMT Regular,Arial;
+  font-size: 12px;
+  color: #edf2c5;
+  margin: 23px 479px 23px 480px;
+}
